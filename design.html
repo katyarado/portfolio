@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="stylesheet" href="static/Styles CSS/Style_CSS_design.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Montserrat:wght@600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="JS/inputmask.min.js"></script>
+    <title>Веб-дизайн и вёрстка</title>
+
+</head>
+
+<body>
+    <div class="bigest_conteiner">
+    <div id="back_to_top" class="back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" style="transform: rotate(270deg); fill: rgb(78, 78, 78);" width="24"
+            height="24" viewBox="0 0 24 24">
+            <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+        </svg>
+    </div>
+    <div class="main_conteiner">
+        <div class="conteiner">
+            <header class="header">
+                <div class="container header__container">
+                    <a class="header__logo" href="Index.html">
+                        <img src="static/Images/footer_logo.svg" alt="">
+                    </a>
+                    
+                 <!-- Бургер -->
+
+                 <button class="header__burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <nav class="menu" id="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#accordion_link">Этапы работы</a>
+                        </li>
+                        <li class="menu__item"></li>
+                            <a class="menu__link" target="_blank" href="portfolio_web.html">Портфолио</a>
+                        </li>
+                        <li class="menu__item"></li>
+                            <a class="menu__link" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            </header>
+        <div>
+            <h2>Веб-дизайн и вёрстка</h2>
+        </div>
+        <div class="first_conteiner">
+            <h3 class="title_conteiner">Какой сайт выбрать?</h3>
+            <div class="conteiner_desc">
+                <div class="inner_conteiner">
+                    <h4 class="inner_title">Сайт-визитка</h4>
+                    <p>небольшой сайт, состоящий из&nbsp;одной или нескольких страниц, в&nbsp;которой отображается основная
+                        информация о компании или физическом лице.</p>
+                    <p>Поможет презентабельно и&nbsp;доходчиво донести до&nbsp;пользователя информацию о&nbsp;вашем предложении/услуге
+                        и&nbsp;т.п.</p>
+                </div>
+                <div class="inner_conteiner">
+                    <h4 class="inner_title">Лендинг</h4>
+                    <p>одностраничный сайт, на&nbsp;который, как правило, попадают по ссылке из&nbsp;рекламы в&nbsp;социальных сетях.
+                        По-другому называется посадочная страница</p>
+                    <p>Главная задача - првлечь внимание пользователя, ознакомить с предложенной информацией (о&nbsp;товаре/услуге/мероприятии и&nbsp;пр.) и&nbsp;получить контактные данные пользователя.</p>
+                </div>
+                <div class="inner_conteiner">
+                    <h4 class="inner_title">Сайт-портфолио</h4>
+                    <p>содержит в&nbsp;себе собрание выполненных работ, проектов и&nbsp;прочих документов. Похож на&nbsp;расширенную
+                        версию сайта-визитки.</p>
+                    <p>Позволит продемонстрировать ваш профессионализм и опыт. </p>
+                </div>
+            </div>
+            <div class="first_btn">
+                <p><a class="btn open-popup" href="#popup" target="_blank">заказать проект</a></p>
+            </div>
+        </div>
+        <h3 class="title_accordion" id="accordion_link">Этапы работы</h3>
+
+        <!-- Accordion
+        ================================ -->
+
+        <div id="accordion" class="accordion">
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>1. Знакомство с проектом</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>Постановка задачи, заполнение брифа, обсуждение деталей, выбор тарифа, предоплата 50%. Сразу
+                            после этого этапа вы отправляете все тексты, изображения, исходник логотипа, фирменный
+                            стиль, а
+                            я приступаю к&nbsp;работе.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>2. Анализ рынка</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>Ознакомление с продуктом, анализ конкурентов, целевой аудитории, построение структуры
+                            лендинга.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>3. Прототип</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>Ваши тексты и&nbsp;изображения встраиваются в&nbsp;структурный прототип (эскиз) и&nbsp;я отправляю его на&nbsp;согласование.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>4. Дизайн сайта</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>После согласования и&nbsp;внесения правок я приступаю к&nbsp;разработке дизайна первых двух блоков и&nbsp;отправляю их вам на&nbsp;согласование. После утверждения дизайн-концепции разрабатывается дизайн
+                            остальных блоков сайта.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>5. Вёрстка</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>Адаптивная верстка для&nbsp;экранов разных устройств (телефон, планшет, компьютер)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>6. Базовая SEO-настройка</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>Выполняю все настройки поисковой оптимизации, которые возможны на&nbsp;этапе создания сайта:
+                            работа с&nbsp;заголовками, адаптивная верстка, установка фавикона, сжатие изображений, для&nbsp;максимально быстрой загрузки сайта, разработка страницы 404 и&nbsp;страницы с благодарностью об&nbsp;оставленной заявке.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>7. Тестирование и&nbsp;запуск на&nbsp;Tilda/Размещение сайта на&nbsp;хостинге</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>На этом этапе мы вместе с&nbsp;вами проверяем работу сайта, запускаем его в&nbsp;работу. Если сайт
+                            свёрстан в&nbsp;Tilda, то я передаю сайт на ваш аккаунт.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item">
+                <div class="accordion__header">
+                    <h4>8. Видеоинструкция</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>Отправляю вам видеоинструкцию по&nbsp;работе с&nbsp;сайтом, как обновить контент, добавить новую
+                            информацию и&nbsp;т.п.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion__item last_item">
+                <div class="accordion__header">
+                    <h4>9. Поддержка втечение одного месяца</h4>
+                </div>
+                <div class="accordion__body">
+                    <div class="accordion__content">
+                        <p>Отвечу на&nbsp;любые вопросы, помогу бесплатно обновить информацию или&nbsp;внести незначительные
+                            изменения, исправлю выявленные ошибки и&nbsp;баги.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- =========================== -->
+
+        <div class="buttons">
+            <div class="second_btn">
+                <p><a class="btn_order open-popup" href="#popup" target="_blank">заказать проект</a></p>
+            </div>
+            <div class="second_btn">
+                <p><a class="btn_portfolio" href="portfolio_web.html" target="_blank">смотреть портфолио</a></p>
+            </div>
+        </div>
+
+        <!-- Contacts 
+        ================================-->
+
+        <div class="contacts" id="contacts">
+            <h3>Контакты</h3>
+            <div class="content">
+                <p>Заполните форму и я свяжусь с вами</p>
+                <p> <a class="btn_card open-popup" href="#">заполнить форму</a></p>
+                <p>Или напишите мне в выбранном мессенджере</p>
+
+                <div class="wraper_btn">
+                    <p> <a class="btn_contacts" target="_blank" title="Написать в e-mail"
+                            href="mailto:katyarado@yandex.ru">e-mail</a></p>
+                    <p> <a class="btn_contacts" target="_blank" title="Написать в WhatsApp"
+                            href="https://wa.me/79041151032">whatsApp</a></p>
+                    <p> <a class="btn_contacts" target="_blank" title="Написать в Telegram"
+                            href="https://telegram.me/KatyaRado">telegram</a></p>
+                    <p> <a class="btn_contacts" target="_blank" title="Написать в Viber"
+                            href="viber://chat?number=%2B79041151032">viber</a></p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer
+        ========================= -->
+
+        <div class="footer">
+            <div class="black_conteiner">
+                <p><a class="foot_link" href="privacy.html" target="_blank">политика конфиденциальности</a></p>
+            </div>
+            <a class="footer__logo" href="Index.html">
+                <img src="static/Images/footer_logo.svg" alt="">
+            </a>
+            <div class="black_conteiner2">
+                <p><a class="foot_link" href="privacy.html" target="_blank">политика конфиденциальности</a></p>
+            </div>
+            <div class="rules_wraper">
+                <p class="rules">&#169 2023 все права защищены</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup 
+    ==============================-->
+
+    <div class="popup-bg" id="popup">
+        <div class="popup" id="form">
+            <img class="close-popup" src="static/Images/close.svg" alt="">
+            <form action="" method="post">
+                <div class="form_input_box">
+                    <input class="form_input" id="name" type="text" placeholder="Имя">
+                </div>
+                <div class="form_input_box">
+                    <input class="form_input" id="e-mail" type="text" placeholder="e-mail">
+                </div>
+                <div class="form_input_box">
+                    <input class="phone form_input" id="phone" type="text" placeholder="+7(___)___-__-__" minlength="18"
+                        maxlength="18">
+                </div>
+                <input class="form_input" value="отправить заявку" type="submit" id="submit">
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/web_design.js"></script>
+
+</body>
+
+</html>

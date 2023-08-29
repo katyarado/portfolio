@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Manrope, Montserrat;
+    font-size: 20px;
+    color: #151515;
+}
+p {
+    color: #fff;
+    font-size: 60px;
+    margin: 40px 0;
+}
+
+.main_conteiner {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+background-image: url(../Images/404.svg);
+background-repeat: no-repeat;
+/* width: 100%; */
+/* height: 100%; */
+background-color: #151515;
+background-position: center;
+background-size: 90%;
+padding: 200px 0;
+}
+
+.item_1,
+.item_2,
+.item_3 {
+    grid-column: 2;
+}
+
+/* .item_1 {
+    margin-top: 200px;
+} */
+.item_4 {
+    display: flex;
+    justify-content: space-between;
+    grid-column: 2;
+    grid-row: 4;
+    /* margin-bottom: 200px; */
+    align-items: center;
+}
+
+.item_4 img {
+margin: 40px;
+}
+
+
+.contacts {
+    /* background-color: white; */
+    /* padding: 100px;
+    border-radius: 40px;
+    margin-bottom: 100px; */
+}
+
+.content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+/* .content>p {
+    margin-bottom: 20px;
+
+} */
+
+.wraper_btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    width: 50%;
+}
+.wraper_btn>p {
+    line-height: 10px;
+    margin-top: 0;
+}
+
+.btn_contacts {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.btn_contacts:hover {
+    background-color: #fff;
+    border-style: none;
+    color: #151515;
+    transition: .2s ease-in-out;
+}
+
+@media (max-width: 1600px) {
+    .main_conteiner {
+  background-position: top;
+}       
+p {
+    font-size: 40px;
+  }
+  .item_4 {
+    flex-direction: column;
+  }
+  .arrow {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+    .main_conteiner {
+        padding: 50px 30px;
+    }
+}
